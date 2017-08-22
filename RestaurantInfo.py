@@ -5,7 +5,7 @@ maker = 'bjune.jeong'
 class RestaurantInfo :    
     category = ''
     title = ''
-    imgUrl = ''
+    image = ''
     grade = ''
     addr = ''
     phone = ''
@@ -16,14 +16,14 @@ class RestaurantInfo :
     def printInfo(self) :
         print 'category :', self.category
         print 'title :', self.title
-        print 'imgUrl :', self.imgUrl
+        print 'image :', self.imgUrl
         print 'grade :', self.grade
         print 'addr :', self.addr
         print 'phone :', self.phone
         print 'homepage :', self.homepage
         print '\n'
-        
- 
+
+
 # Test Code
 if __name__ == '__main__':
     print 'Test code from here'
