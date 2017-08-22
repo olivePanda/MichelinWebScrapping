@@ -7,7 +7,7 @@ maker = 'bjune.jeong'
 def init(url) :
     html = urllib2.urlopen(url).read()
     soup = bs4.BeautifulSoup(html, "html.parser")
-    print 'URL = ', url
+    #print 'URL = ', url
     return soup;
 
 def find(parser, arg1, arg2) :

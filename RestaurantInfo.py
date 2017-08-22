@@ -14,13 +14,14 @@ class RestaurantInfo :
 ##    def __init__(self) :
 
     def printInfo(self) :
-        print 'category : ', self.category
-        print 'title : ', self.title
-        print 'imgUrl : ', self.imgUrl
-        print 'grade : ', self.grade
-        print 'addr : ', self.addr
-        print 'phone : ', self.phone
-        print 'homepage : ', self.homepage
+        print 'category :', self.category
+        print 'title :', self.title
+        print 'imgUrl :', self.imgUrl
+        print 'grade :', self.grade
+        print 'addr :', self.addr
+        print 'phone :', self.phone
+        print 'homepage :', self.homepage
+        print '\n'
         
  
 # Test Code
